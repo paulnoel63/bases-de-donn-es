@@ -32,11 +32,11 @@ require_once 'style.php';
 
          <input type='text' name='forml' placeholder='newname'>
          <input type='submit' name='formul<?php echo $couleur['id'];?>'value='modifier'>
-         <input type='submit' name='formulaire<?php echo $couleur.$idcolor."'value='supprimer'>
+         <input type='submit' name='formulaire<?php echo $couleur.$idcolor;?>'value='supprimer'>
   
-         </form></div>";
+          </form></div>";
          
-
+        <?php
          $idcolor = ("sup.php");
          if (isset($_POST['forml'.$idcolor])){
          header("location: sup.php?id=".$idcolor);
